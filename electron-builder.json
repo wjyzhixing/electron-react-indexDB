@@ -1,0 +1,10 @@
+{
+  "appId": "com.example.yourapp",
+  "productName": "todoList",
+  "directories": {
+    "output": "dist"
+  },
+  "win": {
+    "target": "nsis" // 设置为nsis以打包为Windows安装程序，或者设置为"portable"打包为可执行文件
+  }
+}
